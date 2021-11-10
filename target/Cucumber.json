@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T18:48:47.492Z",
+        "line": 4,
+        "name": "Validating ability to click on Reserve A Spot button",
+        "description": "",
+        "id": "reserve-a-spot;validating-ability-to-click-on-reserve-a-spot-button",
+        "after": [
+          {
+            "result": {
+              "duration": 683000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.e2Parking.stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4786000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on home page",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5226000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on Reserve A Spot button and validate Reservation Page header",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserClicksOnReserveASpotButtonAndValidateReservationPageHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8339000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user selects vehicle and check in chek out date",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserSelectsVehicleAndCheckInChekOutDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2303000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on Select a Parking Spot button and validates Select a Parking Spot header",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserClicksOnSelectAParkingSpotButtonAndValidatesSelectAParkingSpotHeader()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is able to review the parking spot",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserIsAbleToReviewTheParkingSpot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user will be able to review selected reservation",
+            "match": {
+              "location": "com.e2Parking.stepDefs.E2ParkingStepDefinitions.theUserWillBeAbleToReviewSelectedReservation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "Reserve A Spot",
+    "description": "",
+    "id": "reserve-a-spot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/e2Parking/features/ReserveSpot.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 3
+        }
+      },
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]
